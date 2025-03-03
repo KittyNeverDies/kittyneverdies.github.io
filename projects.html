@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="kittyneverdies, it's me:)">
+    <meta name="theme-color" content="#0080FF">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kittyneverdies.is-a.dev/">
+    <meta property="og:image" content="images/info.png"/>
+    <meta property="og:description" content="A creative person, with favorite hobby in cheating in block games, also enjoys writing codes in c# and python programming languages and cracking games using cheat engine on windows or game guardian on android. Understand only Russian and English, but I can understand other languages. Please use only these languages." />
+    <meta name="description" content="kittyneverdies - a creative person, with favorite hobby in cheating in block games, also enjoys writing codes in c# and python programming languages and cracking games using cheat engine on windows or game guardian on android. Understand only Russian and English, but I can understand other languages. Please use only these languages">
+    <meta name="keywords" content="KittyNeverDies, developer, hacker, C#, Python, game modification">
+    
+    <title>kittyneverdies - projects</title>
+
+    
+    <link href="images/info.png" rel="icon">
+    <link rel="icon" href="assets/logo.png"/>
+    
+
+    <!-- External Resources -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'product-sans': ['Product Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            DEFAULT: '#0080FF',
+                            dark: '#0066CC',
+                            light: '#E6F3FF'
+                        },
+                        surface: {
+                            light: '#F8FAFC',
+                            dark: '#1E293B'
+                        },
+                        accent: {
+                            purple: '#8B5CF6',
+                            pink: '#EC4899',
+                            orange: '#F97316',
+                            teal: '#14B8A6'
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.6s ease-in forwards',
+                        'slide-up': 'slideUp 0.8s ease-out forwards',
+                        'scale': 'scale 0.3s ease-in-out'
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(100px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' }
+                        },
+                        scale: {
+                            '0%': { transform: 'scale(1)' },
+                            '50%': { transform: 'scale(1.05)' },
+                            '100%': { transform: 'scale(1)' }
+                        }
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-product-sans antialiased bg-surface-light dark:bg-surface-dark text-gray-900 dark:text-gray-100 min-h-screen">
+    <!-- Skip Link for Accessibility -->
+    <a class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary text-white px-4 py-2 rounded-lg" href="#main">
+        Skip to main content
+    </a>
+
+    <!-- Header Section -->
+    <header class="relative container mx-auto px-4 py-8" role="banner">
+        <a aria-label="Return to home page" class="inline-flex items-center gap-2 text-primary hover:text-primary-dark transition-colors mb-8" href="index.html">
+            <span class="material-icons">arrow_back</span>
+            <span>Back to Home</span>
+        </a>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4">My Projects</h1>
+        <p>
+            A collection of my creative works and coding projects
+        </p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="relative min-h-screen" id="main" role="main">
+        <section aria-label="Projects showcase" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-10 px-4 sm:px-6 md:px-8 lg:px-10" role="region">
+
+            <!-- Bozenka Project Card -->
+            <article aria-labelledby="bozenka-title" class="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1 sm:p-4 md:p-6 lg:p-8" role="article">
+                <div class="p-6 flex flex-col h-full">
+                    <div class="flex items-center gap-4 mb-4">
+                        <span aria-hidden="true" class="material-icons text-3xl text-accent-white">hub</span>
+                        <h3 class="text-2xl font-semibold" id="bozenka-title">Bozenka</h3>
+                    </div>
+                    <div aria-label="Technologies used" class="flex flex-wrap gap-2 mb-4" role="list">
+                        
+                        <span class="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm flex items-center gap-1" role="listitem">
+                            <span aria-hidden="true" class="material-icons text-base">code</span>
+                            <span>Python, HTML, CSS, JS</span>
+                        </span> 
+                        <span class="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm flex items-center gap-1" role="listitem">
+                            <span aria-hidden="true" class="material-icons text-base">code</span>
+                            <span>BeerCSS, Django</span>
+                        </span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 flex-grow">A cross-platform bot with its own website and user interface. Manage all your communities from a single dashboard. Currently in development. Created using Material 3 system.</p>
+                    <div aria-label="Project links" class="flex flex-wrap gap-3 mt-auto" role="group">
+                        
+                <a aria-label="Source Code for this project" class="inline-flex items-center gap-2 px-4 py-2 bg-primary hover:bg-primary-dark text-white rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" href="https://github.com/kittyneverdies/Bozenka" rel="noopener noreferrer" target="_blank">
+                    <span aria-hidden="true" class="material-icons text-sm">code</span>
+                    <span>Source Code</span>
+                </a>
+                <a aria-label="View Project for this project" class="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" href="Bozenka" rel="noopener noreferrer" target="_blank">
+                    <span aria-hidden="true" class="material-icons text-sm">launch</span>
+                    <span>View Project</span>
+                </a>
+            
+                    </div>
+                </div>
+            </article>
+
+            <!-- Starlight UI Project Card -->
+            <article aria-labelledby="starlight-ui-title" class="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1 sm:p-4 md:p-6 lg:p-8" role="article">
+                <div class="p-6 flex flex-col h-full">
+                    <div class="flex items-center gap-4 mb-4">
+                        <span aria-hidden="true" class="material-icons text-3xl text-accent-orange">rocket_launch</span>
+                        <h3 class="text-2xl font-semibold" id="starlight-ui-title">Starlight UI</h3>
+                    </div>
+                    <div aria-label="Technologies used" class="flex flex-wrap gap-2 mb-4" role="list">
+                        
+                        <span class="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm flex items-center gap-1" role="listitem">
+                            <span aria-hidden="true" class="material-icons text-base">code</span>
+                            <span>C#</span>
+                        </span> 
+                        <span class="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm flex items-center gap-1" role="listitem">
+                            <span aria-hidden="true" class="material-icons text-base">code</span>
+                            <span>.NET, Windows Forms</span>
+                        </span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 flex-grow">The user interface for the Starlight Roblox Launcher, designed to launch Roblox faster than the official client. Discontinued.</p>
+                    <div aria-label="Project links" class="flex flex-wrap gap-3 mt-auto" role="group">
+                        
+                <a aria-label="Source Code for this project" class="inline-flex items-center gap-2 px-4 py-2 bg-primary hover:bg-primary-dark text-white rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" href="https://git.disroot.org/CatsPnewed/Starlight.UI" rel="noopener noreferrer" target="_blank">
+                    <span aria-hidden="true" class="material-icons text-sm">code</span>
+                    <span>Source Code</span>
+                </a>
+            
+                    </div>
+                </div>
+            </article>
+
+            <!-- Selenite Project Card -->
+            <article aria-labelledby="selenite-title" class="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1 sm:p-4 md:p-6 lg:p-8" role="article">
+                <div class="p-6 flex flex-col h-full">
+                    <div class="flex items-center gap-4 mb-4">
+                        <span aria-hidden="true" class="material-icons text-3xl text-accent-teal">auto_awesome</span>
+                        <h3 class="text-2xl font-semibold" id="selenite-title">Selenite</h3>
+                    </div>
+                    <div aria-label="Technologies used" class="flex flex-wrap gap-2 mb-4" role="list">
+                        
+                        <span class="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm flex items-center gap-1" role="listitem">
+                            <span aria-hidden="true" class="material-icons text-base">code</span>
+                            <span>C#</span>
+                        </span> 
+                        <span class="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm flex items-center gap-1" role="listitem">
+                            <span aria-hidden="true" class="material-icons text-base">code</span>
+                            <span>.NET, Windows Forms</span>
+                        </span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 flex-grow">An executor for Roblox with a user-friendly interface. Includes Minecraft utilities and Roblox Lua scripts. Development halted.</p>
+                    <div aria-label="Project links" class="flex flex-wrap gap-3 mt-auto" role="group">
+                        
+                <a aria-label="Discord Server for this project" class="inline-flex items-center gap-2 px-4 py-2 bg-primary hover:bg-primary-dark text-white rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" href="https://dsc.gg/selenite" rel="noopener noreferrer" target="_blank">
+                    <span aria-hidden="true" class="material-icons text-sm">chat</span>
+                    <span>Discord Server</span>
+                </a>
+                <a aria-label="View Project for this project" class="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" href="SeleniteProject" rel="noopener noreferrer" target="_blank">
+                    <span aria-hidden="true" class="material-icons text-sm">launch</span>
+                    <span>View Project</span>
+                </a>
+            
+                    </div>
+                </div>
+            </article>
+
+            <!-- Bucket Anti-Cheat Project Card -->
+            <article aria-labelledby="bucket-anti-cheat-title" class="group bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1 sm:p-4 md:p-6 lg:p-8" role="article">
+                <div class="p-6 flex flex-col h-full">
+                    <div class="flex items-center gap-4 mb-4">
+                        <span aria-hidden="true" class="material-icons text-3xl text-accent-pink">code</span>
+                        <h3 class="text-2xl font-semibold" id="bucket-anti-cheat-title">Bucket Anti-Cheat</h3>
+                    </div>
+                    <div aria-label="Technologies used" class="flex flex-wrap gap-2 mb-4" role="list">
+                        
+                        <span class="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm flex items-center gap-1" role="listitem">
+                            <span aria-hidden="true" class="material-icons text-base">code</span>
+                            <span>Python</span>
+                        </span> 
+                        <span class="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm flex items-center gap-1" role="listitem">
+                            <span aria-hidden="true" class="material-icons text-base">code</span>
+                            <span>ListDLL</span>
+                        </span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 flex-grow">Python solution that protects your application from DLL injection. My first Python project.</p>
+                    <div aria-label="Project links" class="flex flex-wrap gap-3 mt-auto" role="group">
+                        
+                <a aria-label="Source Code for this project" class="inline-flex items-center gap-2 px-4 py-2 bg-primary hover:bg-primary-dark text-white rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" href="https://github.com/KittyNeverDies/BAC.Public" rel="noopener noreferrer" target="_blank">
+                    <span aria-hidden="true" class="material-icons text-sm">code</span>
+                    <span>Source Code</span>
+                </a>
+            
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Theme Toggle Button -->
+    <button aria-label="Toggle dark mode" class="fixed top-4 right-4 z-50 p-2 sm:p-3 md:p-4 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:scale-110 focus:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all" id="theme-toggle">
+        <span aria-hidden="true" class="material-icons text-base sm:text-lg md:text-xl text-gray-900 dark:text-white" id="theme-icon">light_mode</span>
+    </button>
+
+    <!-- Footer -->
+    <footer class="relative py-8 mt-16 bg-gray-100 dark:bg-gray-800" role="contentinfo">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-600 dark:text-gray-400">
+                Made with <span aria-label="love" role="img">❤️</span> by kittyneverdies
+            </p>
+        </div>
+    </footer>
+
+    <!-- Theme Management Script -->
+    <script>
+        // Theme management class
+        class ThemeManager {
+            constructor() {
+                this.themeToggle = document.getElementById('theme-toggle');
+                this.themeIcon = document.getElementById('theme-icon');
+                this.mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+                
+                this.initialize();
+                this.setupEventListeners();
+            }
+
+            initialize() {
+                const savedTheme = localStorage.getItem('theme');
+                if (savedTheme) {
+                    this.setTheme(savedTheme === 'dark');
+                } else {
+                    this.setTheme(this.mediaQuery.matches);
+                }
+            }
+
+            setupEventListeners() {
+                this.themeToggle.addEventListener('click', () => {
+                    const isDark = !document.documentElement.classList.contains('dark');
+                    this.setTheme(isDark);
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+
+                this.mediaQuery.addEventListener('change', (e) => {
+                    if (!localStorage.getItem('theme')) {
+                        this.setTheme(e.matches);
+                    }
+                });
+            }
+
+            setTheme(isDark) {
+                document.documentElement.classList.toggle('dark', isDark);
+                this.themeIcon.textContent = isDark ? 'dark_mode' : 'light_mode';
+                
+                this.themeIcon.style.transform = 'rotate(360deg)';
+                setTimeout(() => {
+                    this.themeIcon.style.transform = '';
+                }, 300);
+            }
+        }
+
+        // Initialize when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            new ThemeManager();
+            
+            // Smooth page load animation
+            document.body.style.opacity = '0';
+            requestAnimationFrame(() => {
+                document.body.style.transition = 'opacity 0.5s ease-in';
+                document.body.style.opacity = '1';
+            });
+        });
+    </script>
+</body>
+</html>

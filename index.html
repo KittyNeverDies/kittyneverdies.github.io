@@ -1,236 +1,224 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta property="og:title" content="kittyneverdies, it's me:)">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://kittyneverdies.is-a.dev/">
-  <meta property="og:image" content="images/info.png"/>
-  <meta property="og:description" content="A creative person, with favorite hobby in cheating in block games, also enjoys writing codes in c# and python programming languages and cracking games using cheat engine on windows or game guardian on android. Understand only Russian and English, but I can understand other languages. Please use only these languages." />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0080FF">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kittyneverdies.is-a.dev/">
+    <meta property="og:image" content="images/info.png"/>
+    <meta property="og:description" content="A creative person, with favorite hobby in cheating in block games, also enjoys writing codes in c# and python programming languages and cracking games using cheat engine on windows or game guardian on android. Understand only Russian and English, but I can understand other languages. Please use only these languages." />
+    <meta name="description" content="kittyneverdies - a creative person, with favorite hobby in cheating in block games, also enjoys writing codes in c# and python programming languages and cracking games using cheat engine on windows or game guardian on android. Understand only Russian and English, but I can understand other languages. Please use only these languages">
+    <meta name="keywords" content="KittyNeverDies, developer, hacker, C#, Python, game modification">
+    <title>kittyneverdies - about me</title>
 
-
-  <title>kittyneverdies - about me</title>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="kittyneverdies - a creative person, with favorite hobby in cheating in block games, also enjoys writing codes in c# and python programming languages and cracking games using cheat engine on windows or game guardian on android. Understand only Russian and English, but I can understand other languages. Please use only these languages">
-  <meta name="keywords" content="KittyNeverDies, developer, hacker, C#, Python, game modification">
-  
-
-  <link href="images/info.png" rel="icon">
-  <link href="https://cdn.jsdelivr.net/npm/beercss@3.6.12/dist/cdn/beer.min.css" rel="stylesheet">
-  
-  <link href="styles/style.css" rel="stylesheet">
-  <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.6.12/dist/cdn/beer.min.js"></script>
-  <script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js"></script>
-  <link rel="icon" href="assets/logo.png"/>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Product Sans Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'product-sans': ['Product Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            DEFAULT: '#0080FF',
+                            dark: '#0066CC',
+                            light: '#E6F3FF'
+                        },
+                        surface: {
+                            light: '#F8FAFC',
+                            dark: '#1E293B'
+                        },
+                        accent: {
+                            purple: '#8B5CF6',
+                            pink: '#EC4899',
+                            orange: '#F97316',
+                            teal: '#14B8A6'
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.6s ease-in forwards',
+                        'slide-up': 'slideUp 0.8s ease-out forwards',
+                        'scale': 'scale 0.3s ease-in-out'
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(100px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' }
+                        },
+                        scale: {
+                            '0%': { transform: 'scale(1)' },
+                            '50%': { transform: 'scale(1.05)' },
+                            '100%': { transform: 'scale(1)' }
+                        }
+                    }
+                },
+            },
+        }
+    </script>
 </head>
-<body onload="loadColorTheme()" class="scroll">
-    <div class="nav-container">
-        <nav class="floating-nav round primary">
-          <a href="https://dsc.gg/selenite"><i>chat</i><div>Discord</div></a>
-          <a href="https://youtube.com/@CatsPnewed"><i>movie</i><div>1st Youtube Channel</div></a>
-          <a href="https://youtube.com/@imkittyneverdies"><i>movie</i><div>2nd Youtube Channel</div></a>
-          <a href="https://t.me/kittyneverdies/"><i>travel</i><div>Telegram</div></a>
-        </nav>
-    </div>
-      
-    <main class="responsive padding">
-        <section id="intro round" style="
-        padding: 80px 0;
-        text-align: center;
-        border-radius: 10px;
-        background-color: var(--surface-container-low);">
-            <h1 style="margin-bottom: 0px;">hello <span>👋</span></h1> 
-            <h3 style="margin-top: 0px; margin-bottom: 0px;">i'm kittyneverdies</h3>
-            <h5 style="margin-top: 0px; margin-bottom: 0px;">kittens are the best of the best 🐈</h5>
-            <blockquote>
-              I'm a creative person, and my favorite hobby is cheating in block games. I also enjoy writing codes in c# and python programming languages and cracking games using cheat engine on windows or game guardian on android. I only accept Russian and English, but I can understand other languages. Please use only these languages.
-          </blockquote>
-          <div class="theme-switch-wrapper center-align">
-            <label class="switch icon">
-                <input type="checkbox" id="theme-switch"/>
-                <span>
-                    <i id="theme-icon">light_mode</i>
-                </span>
-            </label>
-          </div>
-          
-          </section>
+<body class="font-product-sans antialiased leading-relaxed tracking-normal sm:tracking-normal md:tracking-normal lg:tracking-normal bg-surface-light dark:bg-surface-dark text-gray-900 dark:text-gray-100 min-h-screen selection:bg-primary selection:bg-opacity-25">
+    <!-- Hero Section -->
+    <div class="relative min-h-screen" role="main">
+        <!-- Gradient Background -->
+        <div class="absolute inset-0 bg-gradient-to-br from-primary-light via-white to-white dark:from-primary-dark dark:via-surface-dark dark:to-surface-dark opacity-30" aria-hidden="true"></div>
 
-        <section id="projects" 
-            style="padding: 80px 0;
-                  text-align: center;">
-            <h2> Projects I have worked on <i class="extra">person</i> </h2>
-            <blockquote style="
-        background-color: var(--surface-container-low);">
-        
-              <h5>Hey!</h5>
-              If you'd like to see more examples you, can check out the other projects <a href="https://github.com/kittyneverdies">here</a> and <a href="https://git.disroot.org/CatsPnewed/">here</a>.
-            </blockquote>
-            
-        <div class="container">
-        <div class="grid">
-            <div class="col s12 m4">
-              <div class="card project-card">
-                <i class="extra">skull</i>
-                <h3 class="center-align">Bozenka</h3>                 
-                <a class="chip" style="margin-top: 5px; margin-bottom: 5px;">
-                  <i>language</i>
-                  <span>Languages: Python, HTML, CSS, JS</span>
-                </a>
-                <a class="chip" style="margin-top: 5px; margin-bottom: 5px;">
-                  <i>build</i>
-                  <span>Framework: BeerCSS, Django</span>
-                </a>
-                <p style="text-align: left;">A cross-platform bot that comes with its own website and user interface. You can manage all your communities from a single dashboard and never have to worry about different social networks again. Currently in development. Created using the Material 3 system from Google.</p>
-                
-                <a href="https://github.com/kittyneverdies/Bozenka">
-                  <button class="small-round" style="margin-top: 5px; margin-bottom: 5px;">
-                    <i>source</i>
-                    <span>Source Code</span>
-                  </button>
-                </a>
-                <a href="Bozenka">
-                  <button class="small-round" style="margin-top: 5px; margin-bottom: 5px;">
-                    <i>home</i>
-                    <span>Project Homepage</span>
-                  </button>
-                </a>
-              </div>
+        <!-- Main Content Grid -->
+        <div class="relative grid grid-cols-1 lg:grid-cols-12 gap-4 md:gap-8 container mx-auto p-4 sm:p-6 md:p-8 lg:p-12 min-h-screen">
+            <!-- Left Column -->
+            <div class="lg:col-span-7 flex flex-col justify-center space-y-4 md:space-y-6 lg:space-y-8">
+                <div class="animate-slide-up space-y-4 md:space-y-6">
+                    <div class="inline-block p-2 md:p-3 lg:p-4 bg-primary bg-opacity-10 rounded-full mb-4 md:mb-6 lg:mb-8" aria-hidden="true">
+                        <span class="material-icons text-3xl md:text-4xl lg:text-5xl leading-none text-primary">pets</span>
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight sm:tracking-tight md:tracking-tight lg:tracking-tight">
+                        hello <span class="animate-scale inline-block" role="img" aria-label="Waving hand">👋</span>
+                    </h1>
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-snug tracking-normal sm:tracking-normal md:tracking-normal lg:tracking-normal text-gray-700 dark:text-gray-300">
+                        i'm kittyneverdies
+                    </h2>
+                    <p class="text-lg sm:text-xl md:text-2xl leading-normal tracking-wide sm:tracking-wide md:tracking-wide lg:tracking-wide text-gray-600 dark:text-gray-400">
+                        kittens are the best of the best <span role="img" aria-label="Cat">🐈</span>
+                    </p>
+                </div>
             </div>
-            <div class="col s12 m4">
-              <div class="card project-card">
-                <i class="extra">rocket_launch</i>
-                <h3 class="center-align">Starlight UI</h3>
-                <a class="chip" style="margin-top: 5px; margin-bottom: 5px;">
-                  <i>language</i>
-                  <span>Languages: C#</span>
-                </a>
-                <a class="chip" style="margin-top: 5px; margin-bottom: 5px;">
-                  <i>build</i>
-                  <span>Framework: .NET, Windows Forms</span>
-                </a>
-                <p style="text-align: left;">The user interface for the Starlight Roblox Launcher, designed to launch Roblox faster than the official client. Discontinued.</p>
-                <a href="https://git.disroot.org/CatsPnewed/Starlight.UI">
-                  <button class="small-round">
-                    <i>source</i>
-                    <span>Source Code</span>
-                  </button>
-                </a>
-              </div>
+
+            <!-- Right Column -->
+            <div class="lg:col-span-5 flex flex-col justify-center space-y-6 md:space-y-8">
+                <div class="prose prose-lg md:prose-xl lg:prose-2xl dark:prose-invert">
+                    <blockquote class="text-left bg-white dark:bg-gray-800 p-4 sm:p-6 md:p-8 rounded-xl shadow-lg border-l-4 border-primary leading-relaxed tracking-normal">
+                        I'm a creative person, and my favorite hobby is cheating in block games. I also enjoy writing codes in c# and python programming languages and cracking games using cheat engine on windows or game guardian on android. I only accept Russian and English, but I can understand other languages. Please use only these languages.
+                    </blockquote>
+                </div>
+
+                <!-- Social Links Grid -->
+                <div class="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6">
+                    <a href="https://github.com/kittyneverdies" 
+                       class="flex items-center justify-center gap-2 px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 bg-gray-900 dark:bg-gray-700 text-white rounded-full hover:scale-105 focus:scale-105 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all leading-none tracking-wide"
+                       aria-label="Visit my GitHub profile">
+                        <span class="material-icons text-base sm:text-lg md:text-xl leading-none" aria-hidden="true">code</span>
+                        <span class="text-sm sm:text-base md:text-lg tracking-wider">GitHub</span>
+                    </a>
+                    <a href="https://git.disroot.org/CatsPnewed/" 
+                       class="flex items-center justify-center gap-2 px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 bg-accent-purple dark:bg-accent-purple/80 text-white rounded-full hover:scale-105 focus:scale-105 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all leading-none tracking-wide"
+                       aria-label="Visit my Disroot profile">
+                        <span class="material-icons text-base sm:text-lg md:text-xl leading-none" aria-hidden="true">terminal</span>
+                        <span class="text-sm sm:text-base md:text-lg tracking-wider">Disroot</span>
+                    </a>
+                    <a aria-label="View my projects" class="col-span-2 flex items-center justify-center gap-2 px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 bg-accent-teal dark:bg-accent-teal/80 text-white rounded-full hover:scale-105 focus:scale-105 focus:scale-105 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all leading-none tracking-wide mb-4" href="projects.html">
+                        <span aria-hidden="true" class="material-icons text-base sm:text-lg md:text-xl">folder_special</span>
+                        <span class="text-sm sm:text-base md:text-lg tracking-wider">View Projects</span>
+                        </a>
+                </div>
             </div>
-            <div class="col s12 m4">
-              <div class="card project-card">
-                <i class="extra">auto_awesome</i>
-                <h3 class="center-align">Selenite</h3>
-                <a class="chip" style="margin-top: 5px; margin-bottom: 5px;">
-                  <i>language</i>
-                  <span>Languages: C#</span>
-                </a>
-                <a class="chip" style="margin-top: 5px; margin-bottom: 5px;">
-                  <i>build</i>
-                  <span>Framework: .NET, Windows Forms</span>
-                </a>
-                <p style="text-align: left;">It's an executor for Roblox, featuring a user-friendly interface developed in C# using the .NET Framework. Right now it including a collection of Minecraft utilities and Roblox Lua scripts. However, the development of this project has been halted.</p>
-                <a href="https://dsc.gg/selenite">
-                  <button class="small-round" style="margin-top: 5px; margin-bottom: 5px;">
-                    <i>link</i>
-                    <span>Discord Server</span>
-                  </button>
-                </a>
-                <a href="SeleniteProject">
-                  <button class="small-round" style="margin-top: 5px; margin-bottom: 5px;">
-                    <i>home</i>
-                    <span>Project Homepage</span>
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div class="col s12 m4">
-              <div class="card project-card">
-                <i class="extra">code</i>
-                <h3 class="center-align">Bucket Anti-Cheat</h3>
-                <a class="chip" style="margin-top: 5px; margin-bottom: 5px;">
-                  <i>language</i>
-                  <span>Languages: Python</span>
-                </a>
-                <a class="chip" style="margin-top: 5px; margin-bottom: 5px;">
-                  <i>build</i>
-                  <span>Framework: ListDLL</span>
-                </a>
-                <p>Python solution, that protect your application from DLL injection. My first python project, have bad code.</p>
-                <a href="https://github.com/KittyNeverDies/BAC.Public">
-                  <button class="small-round">
-                    <i>source</i>
-                    <span>Source Code</span>
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
 
-    </section>
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" 
+                class="fixed top-4 right-4 z-50 p-2 sm:p-3 md:p-4 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:scale-110 focus:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all"
+                aria-label="Toggle dark mode">
+            <span class="material-icons text-base sm:text-lg md:text-xl leading-none text-gray-900 dark:text-white" aria-hidden="true" id="theme-icon">light_mode</span>
+        </button>
 
-    </main>
+        <!-- Navigation -->
+        <nav class="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50">
+            <div class="flex items-center gap-2 p-2 bg-white dark:bg-gray-800 rounded-full shadow-lg backdrop-blur-sm bg-opacity-80">
+                <a href="https://dsc.gg/selenite" 
+                   class="flex items-center gap-2 px-4 py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                    <span class="material-icons">chat</span>
+                    <span class="hidden sm:inline">selenite</span>
+                </a>
+                <a href="https://youtube.com/@CatsPnewed" 
+                   class="flex items-center gap-2 px-4 py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                    <span class="material-icons">movie</span>
+                    <span class="hidden sm:inline">cxtspnewed</span>
+                </a>
+                <a href="https://youtube.com/@imkittyneverdies" 
+                   class="flex items-center gap-2 px-4 py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                    <span class="material-icons">movie</span>
+                    <span class="hidden sm:inline">kittyneverdies</span>
+                </a>
+                <a href="https://t.me/kittyneverdies/" 
+                   class="flex items-center gap-2 px-4 py-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                    <span class="material-icons">send</span>
+                    <span class="hidden sm:inline">telegram</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Previous script section remains identical -->
     <script>
-        // Theme toggling function
-        function toggleTheme() {
-            let newMode = document.getElementById("theme-switch").checked ? "dark" : "light";
-            ui("mode", newMode);
-
-            let themeIcon = document.getElementById("theme-icon");
-            themeIcon.textContent = newMode === "dark" ? "dark_mode" : "light_mode";
-        }
-
-        // Initialize the page
-        document.addEventListener('DOMContentLoaded', () => {
-            document.getElementById('theme-switch').addEventListener('change', toggleTheme);
-        });
-
-        async function onPageLoad() {
-            let theme = await ui("theme", "#0080FF");
-            let is_dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-            document.getElementById('theme-switch').checked = is_dark;
-            document.getElementById("theme-icon").textContent = is_dark ? "dark_mode" : "light_mode";
-            ui("mode", is_dark ? "dark" : 'light');
-        }
-
-        window.transitionToPage = function(href) {
-            document.querySelector('body').style.opacity = 0
-            setTimeout(function() {
-                window.location.href = href
-            }, 500)
-        }
-
-        document.addEventListener('DOMContentLoaded', function(event) {
-            document.querySelector('body').style.opacity = 1
-        })
-        
-        // Function to add the fade-in class when elements are in view
-        function fadeInOnScroll() {
-          const sections = document.querySelectorAll('section');
-          const windowHeight = window.innerHeight;
-
-          sections.forEach(section => {
-            const sectionTop = section.getBoundingClientRect().top;
-              if (sectionTop < windowHeight - 100) {
-                section.classList.add('fade-in');
+        // Enhanced theme management
+        class ThemeManager {
+            constructor() {
+                this.themeToggle = document.getElementById('theme-toggle');
+                this.themeIcon = document.getElementById('theme-icon');
+                this.mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+                
+                this.initialize();
+                this.setupEventListeners();
             }
-          });
+
+            initialize() {
+                const savedTheme = localStorage.getItem('theme');
+                if (savedTheme) {
+                    this.setTheme(savedTheme === 'dark');
+                } else {
+                    this.setTheme(this.mediaQuery.matches);
+                }
+            }
+
+            setupEventListeners() {
+                this.themeToggle.addEventListener('click', () => {
+                    const isDark = !document.documentElement.classList.contains('dark');
+                    this.setTheme(isDark);
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+
+                this.mediaQuery.addEventListener('change', (e) => {
+                    if (!localStorage.getItem('theme')) {
+                        this.setTheme(e.matches);
+                    }
+                });
+            }
+
+            setTheme(isDark) {
+                document.documentElement.classList.toggle('dark', isDark);
+                this.themeIcon.textContent = isDark ? 'dark_mode' : 'light_mode';
+                
+                this.themeIcon.style.transform = 'rotate(360deg)';
+                setTimeout(() => {
+                    this.themeIcon.style.transform = '';
+                }, 300);
+            }
         }
 
-        // Event listener for scrolling
-        window.addEventListener('scroll', fadeInOnScroll);
-
-        // Trigger the function on page load
-        window.addEventListener('load', () => {
-          document.body.style.opacity = 1;
-          fadeInOnScroll();
+        // Initialize when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            new ThemeManager();
+            
+            // Smooth page load
+            document.body.style.opacity = '0';
+            requestAnimationFrame(() => {
+                document.body.style.transition = 'opacity 0.5s ease-in';
+                document.body.style.opacity = '1';
+            });
         });
-
-       // Call onPageLoad when the page loads
-        window.onload = onPageLoad;
     </script>
 </body>
 </html>
